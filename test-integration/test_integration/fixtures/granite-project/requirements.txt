@@ -91,7 +91,7 @@ fsspec==2025.3.2
     #   torch
 gguf==0.10.0
     # via vllm
-h11==0.14.0
+h11==0.16.0
     # via
     #   httpcore
     #   uvicorn
@@ -309,7 +309,7 @@ regex==2024.11.6
     # via
     #   tiktoken
     #   transformers
-requests==2.32.3
+requests==2.32.4
     # via
     #   cog
     #   huggingface-hub
@@ -361,7 +361,7 @@ tokenizers==0.21.1
     # via
     #   transformers
     #   vllm
-torch==2.6.0
+torch==2.7.1
     # via
     #   compressed-tensors
     #   outlines
@@ -429,7 +429,7 @@ websockets==15.0.1
     # via uvicorn
 xformers==0.0.29.post2
     # via vllm
-xgrammar==0.1.17
+xgrammar==0.1.18
     # via vllm
 yarl==1.19.0
     # via aiohttp
